@@ -158,7 +158,8 @@ device_conso_classes = {
     'energyInstantTi1I_Max': 'current',
     'energyScaleTi1I_Min': 'current',
     'energyScaleTi1I_Max': 'current',
-    'energyTotIndexWatt': 'energy'}
+    'energyTotIndexWatt': 'energy'
+    'outTemperature': 'temperature'}
 
 device_conso_unit_of_measurement = {
     'energyInstantTotElec': 'A',
@@ -181,7 +182,8 @@ device_conso_unit_of_measurement = {
     'energyInstantTi1I_Max': 'A',
     'energyScaleTi1I_Min': 'A',
     'energyScaleTi1I_Max': 'A',
-    'energyTotIndexWatt': 'Wh'}
+    'energyTotIndexWatt': 'Wh'
+    'outTemperature': 'C'}
 device_conso_keywords = device_conso_classes.keys()
 
 # Device dict for parsing
